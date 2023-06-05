@@ -36,11 +36,12 @@ nav {
 .logo{
   width:auto;
   height: auto;
+  margin:5px;
 }
 
 .logo img{
-  width: 99%;
-  aspect-ratio: 3/2;
+  width: 100%;
+  aspect-ratio: 4/3;
   object-fit: cover;
 }
 
@@ -58,7 +59,7 @@ nav {
 
 
 .link a{
-  margin-right: 25px;
+
   cursor:pointer;
   margin-top: 10px;
   color:white;
@@ -75,9 +76,7 @@ nav {
   display:none;
 }
 
-.menu2 img{
-      padding-right:20px ;
-}
+
 
 /* MEDIA QUERY */
 
@@ -89,7 +88,9 @@ nav {
     .link{
       display:flex;
       flex-direction: column;
-      height: 200px;
+      width: 100%;
+      height: auto;
+      padding-bottom: 20px;
 
     }
     .show{
