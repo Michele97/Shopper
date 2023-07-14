@@ -171,4 +171,7 @@ button.next {
         width: auto;
         height: auto;
       }
+      .imb{
+        background-size: contain;
+      }
 }
